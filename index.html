@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyecto Codo a Codo</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+</head>
+
+<body>
+  <!--Menu-->
+  <header class="hero container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-fondo fixed-top">
+      <div class="container-fluid logo-menu">
+        <a class="navbar-brand fw-semibold" href="./index.html"><img src="./assets/img/codoacodo.png" alt="">Conf Bs
+          As</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link fw-semibold" aria-current="page" href="#">Conferencia</a>
+            <a class="nav-link fw-semibold" href="#">Oradores</a>
+            <a class="nav-link fw-semibold" href="#">Lugar y fecha</a>
+            <a class="nav-link fw-semibold" href="#">Sé un orador</a>
+            <a class="nav-link btn btn-warning fw-semibold" href="#">Tickets</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!--Carousel-->
+  <section class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner ">
+      <div class="carousel-item active ">
+        <img src="./assets/img/encabezado1.jpg" class="d-block w-100 " alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/img/encabezado2.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/img/encabezado3.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <div class="texto-carousel col-sm-12 col-md-8 col-lg-6 col-xl-4">
+      <h1>Conf Bs As</h1>
+      <p>Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y
+        experiencia de los expertos que están creando el futuro en Internet. Ven a conocer a miembros del evento, a
+        otros estudiantes de Codo a Codo, y a los oradores de primer nivel. Te esperamos!</p>
+      <div class="btn-carousel">
+        <button type="button" class="btn btn-dark">Quiero ser orador</button>
+        <button type="button" class="btn btn-primary text-light">Comprar tickets</button>
+      </div>
+    </div>
+  </section>
+  <!--Cards-->
+  <div class="container textos-cards text-center mt-2">
+    <p>Conocé a los</p>
+    <h2>ORADORES</h2>
+  </div>
+  <section class="container-cards d-flex justify-content-center text-center gap-4 flex-wrap">
+    <div class="card" style="width: 18rem;">
+      <div class="img-card">
+        <img src="./assets/img/stevejobs.webp" class="card-img w-100" alt="...">
+      </div>
+      <div class="card-body">
+        <a href="#" class="btn btn-warning fw-semibold">JavaScript</a>
+        <a href="#" class="btn btn-info text-light fw-semibold">React</a>
+        <h5 class="card-title">Steve Jobs</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+          content.</p>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <div class="img-card">
+        <img src="./assets/img/billgates.jpg" class="card-img w-100" alt="...">
+      </div>
+      <div class="card-body">
+        <a href="#" class="btn btn-warning fw-semibold">JavaScript</a>
+        <a href="#" class="btn btn-info text-light fw-semibold">React</a>
+        <h5 class="card-title">Bill Gates</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+          content.</p>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <div class="img-card">
+        <img src="./assets/img/adalovelace.jpg" class="card-img" alt="...">
+      </div>
+      <div class="card-body">
+        <a href="#" class="btn btn-secondary fw-semibold">Negocios</a>
+        <a href="#" class="btn btn-danger fw-semibold">Startups</a>
+        <h5 class="card-title">Ada Lovelace</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+          content.</p>
+      </div>
+    </div>
+  </section>
+  <!--Paisaje-->
+  <section class="card mb-3 contenedor-paisaje mt-4">
+    <div class="row g-0">
+      <div class="col-lg-6 col-md-12 col-sm-12">
+        <img src="./assets/img/paisaje.jpg" class="img-fluid" alt="...">
+      </div>
+      <div class="col-lg-6 col-md-12 col-sm-12 bg-fondo">
+        <div class="card-body text-light text-center ">
+          <h5 class="card-title">Bs As - Octubre</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+            content. This content is a little bit longer. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+            esse
+            voluptates officia ducimus dicta corrupti ratione sapiente iusto aperiam aliquam, assumenda veritatis ullam
+            distinctio quos dignissimos tempore qui porro accusantium quam laborum labore commodi? Nostrum corrupti quae
+            reiciendis error sapiente.</p>
+          <a href="#" class="btn btn-info text-light fw-semibold border border-light border-2">Conocé más</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Formulario-->
+  <section class="container formulario">
+    <div class="container taxtos-form text-center">
+      <h2 class="subtitulo">Conviértete en Orador</h2>
+      <p class="parrafo">Inscríbete como orador para dar una charla ignite. Cuéntanos sobre qué quieres
+        hablar!
+      </p>
+    </div>
+    <div class="container formulario text-center">
+      <form class="row justify-content-center">
+        <div class="col-sm-12 col-xl-4 mt-2">
+          <input type="text" class="form-control fs-4 border border-dark" id="name" placeholder="Nombre">
+        </div>
+        <div class="col-sm-12 col-xl-4 mt-2">
+          <input type="text" class="form-control fs-4 border border-dark" id="name" placeholder="Apellido">
+        </div>
+        <div class="col-sm-12 col-xl-8">
+          <textarea class="textarea fs-4 mt-3 border-dark p-2" name="" id=""
+            placeholder="Sobre qué quieres hablar?"></textarea>
+        </div>
+        <p>*Recuerda incluir un título para tu charla</p>
+        <button class="btn btn-primary fs-2 w-50">Enviar</button>
+      </form>
+    </div>
+  </section>
+  <!--Pie de pagina-->
+  <footer class="bg-fondo">
+    <div class="container-fluid text-center text-light pt-2">
+      <p>&copy; Conf Bs As 2022</p>
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link" href="">Preguntas frecuentes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contáctanos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Prensa</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Conferencias</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Términos y condiciones</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Privacidad</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Estudiantes</a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
