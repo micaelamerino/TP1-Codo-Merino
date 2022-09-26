@@ -47,13 +47,7 @@ footer{
     margin-right: 30px;
     top: 35%;
     }
-    @media screen and (max-width:768px){
-        .texto-carousel{
-        top: 35%;
-        width: 80%;
-        text-align: center;
-        margin-right: 0;
-        }
+}
 @media screen and (max-width:560px){
     .texto-carousel{
         position: relative;
@@ -67,4 +61,3 @@ footer{
         height: auto;
     }
     }
-}
